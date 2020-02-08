@@ -10,8 +10,10 @@
 My personal [website](https://www.junelsolis.com) is in desperate need of a makeover. 
 
 The site will be rebuilt afresh and this repository will serve as its codebase. I have decided to make it public to show how I've built it. 
-
 Pull requests from the public are very welcome!
+
+### Mockups
+Mockups are done in Figma and can be found [here](https://www.figma.com/file/NbOTnqYEUN4UnoFCmgjWYd/Site?node-id=0%3A1)
 
 ### Requirements
 - Docker Engine
