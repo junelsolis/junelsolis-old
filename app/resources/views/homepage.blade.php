@@ -5,7 +5,12 @@
         <link href='/css/homepage.css' rel='stylesheet'>
     </head>
     <body>
-        <h1>Hello, this is the homepage</h1>
+        <div id='app' class='h-screen bg-grey-100 flex items-center justify-end'>
+            <div class='panel'>
+                
+            </div>
+        </div>
+        
 
         <script src='/js/manifest.js'></script>
         <script src='/vendor.js'></script>
