@@ -2,5 +2,6 @@
     "/js/homepage.js": "/js/homepage.js",
     "/css/homepage.css": "/css/homepage.css",
     "/js/manifest.js": "/js/manifest.js",
-    "/js/vendor.js": "/js/vendor.js"
+    "/js/vendor.js": "/js/vendor.js",
+    "/js/rellax.js": "/js/rellax.js"
 }

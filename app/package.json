@@ -22,6 +22,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "rellax": "^1.12.0",
         "tailwindcss": "^1.2.0"
     }
 }
