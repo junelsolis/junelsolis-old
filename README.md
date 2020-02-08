@@ -15,3 +15,6 @@ Pull requests from the public are very welcome!
 - Clone this repository
 - Run `./setup.sh`
 - Browse to `http://localhost:8710`
+
+### Tests
+The test suite for this project is located in `./app/tests`
