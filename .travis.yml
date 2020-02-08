@@ -1,0 +1,26 @@
+language: php
+
+php:
+  - 7.4
+
+cache:
+  directories:
+    - vendor
+    - node_modules
+
+services:
+  - mysql
+
+before_install:
+  - cd app
+
+before_script:
+  - cp .env.travis .env
+  - sudo mysql -e 'CREATE DATABASE `junelsolis-testing`;'
+  - composer self-update
+  - composer install --no-interaction
+  - php artisan key:generate
+  - php artisan migrate --no-interaction -vvv
+
+script:
+  - vendor/bin/phpunit
