@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomepageController@home');
+Route::post('/contact-form', 'HomepageController@contact');
