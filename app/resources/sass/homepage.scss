@@ -30,16 +30,30 @@ body {
                 @apply w-1/6 flex;
 
                 .top-logo {
-
+                    img {
+                        @apply h-12 w-auto;
+                    }
                 }
 
                 .bottom {
                     @apply flex items-end justify-center;
+
                     > div {
-                        // @apply flex justify-start h-64;
-                        // // transform-origin: left;
+                        @apply flex items-center absolute left-0 right-0;
+
                         bottom: 8rem;
                         transform: rotate(-90deg);
+
+                        img {
+                            @apply h-4 w-auto;
+                        }
+
+                        p {
+                            @apply flex text-grey-400;
+                            span {
+                                @apply text-grey-600 font-bold;
+                            }
+                        }
                         
                     }
 
