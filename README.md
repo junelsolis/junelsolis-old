@@ -1,4 +1,4 @@
-# www.junelsolis.com
+![](https://github.com/junelsolis/junelsolis/blob/master/app/public/images/logo.svg)
 Website source code for www.junelsolis.com
 
 My personal [website](https://www.junelsolis.com) is in desperate need of a makeover. 
