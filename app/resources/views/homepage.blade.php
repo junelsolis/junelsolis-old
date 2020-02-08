@@ -9,8 +9,18 @@
             <div class='panel'>
                 @include('left-nav')
 
-                <div class='scroller flex-grow bg-grey-400 ml-24 relative'>
+                <div class='scroller'>
+                    
+
                     <div class='top-fader'></div>
+
+                    <main class='content h-full bg-grey-200'>
+                        <div class='w-full h-full'>
+                            <h1 class='uppercase leading-tight' style='font-size:5rem;'>Web<br>Applications</h1>
+                            <h4 class='normal-case text-grey-300 w-1/3'>Elegant, fully-tested and customized to meet your requirements</h4>
+                        </div>
+                    </main>
+
                     <div class='bottom-fader'></div>
                 </div>
 

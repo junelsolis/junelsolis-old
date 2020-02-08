@@ -3,10 +3,7 @@
 @tailwind utilities;
 @tailwind screen;
 
-html {
-    font-family: 'Raleway', sans-serif;
-    scroll-behavior: smooth;
-}
+@import 'defaults.scss';
 
 body {
     > div {
@@ -61,17 +58,25 @@ body {
             }
 
             .scroller {
+
+                @apply w-5/6 pl-32 h-full relative;
+                overflow-y: auto;
+
                 .top-fader {
-                    @apply absolute top-0 left-0 right-0 h-24;
+                    @apply sticky left-0 right-0 top-0 h-24;
                     background: rgb(248,248,248);
                     background: linear-gradient(0deg, rgba(248,248,248,0) 0%, rgba(255,255,255,1) 98%);
                 }
 
                 .bottom-fader {
-                    @apply absolute bottom-0 left-0 right-0 h-24;
+                    @apply sticky bottom-0 left-0 right-0 h-24;
                     background: rgb(255,255,255);
                     background: linear-gradient(0deg, rgba(255,255,255,1) 15%, rgba(248,248,248,0) 100%);
                 }
+
+                // main {
+                //     @apply absolute top-0 left-0 right-0 bottom-0;
+                // }
             }
         }
     }
