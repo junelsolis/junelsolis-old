@@ -5,6 +5,7 @@
 
 html {
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -14,16 +15,36 @@ body {
         background-size: cover;
 
         .panel {
-            @apply bg-white;
+            @apply bg-white flex;
             width: 95vw;
             height: 85vh;
-            border-top-left-radius: 3rem;
-            border-bottom-left-radius: 3rem;
+            border-top-left-radius: 2rem;
+            border-bottom-left-radius: 2rem;
 
             overflow: hidden;
 
             -webkit-box-shadow: 0px 15px 40px 20px rgba(0,0,0,0.35); 
             box-shadow: 0px 15px 40px 20px rgba(0,0,0,0.35);
+
+            .left-nav {
+                @apply w-1/6 flex;
+
+                .top-logo {
+
+                }
+
+                .bottom {
+                    @apply flex items-end justify-center;
+                    > div {
+                        // @apply flex justify-start h-64;
+                        // // transform-origin: left;
+                        bottom: 8rem;
+                        transform: rotate(-90deg);
+                        
+                    }
+
+                }
+            }
         }
     }
 }
