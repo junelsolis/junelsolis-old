@@ -7,7 +7,7 @@
     <body>
         <h1>Hello, this is the homepage</h1>
 
-        <script src='/js/manifes.js'></script>
+        <script src='/js/manifest.js'></script>
         <script src='/vendor.js'></script>
         <script src='/homepage.js'></script>
     </body>
