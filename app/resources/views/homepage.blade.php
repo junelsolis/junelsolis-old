@@ -9,8 +9,11 @@
             <div class='panel'>
                 @include('left-nav')
 
+                <div class='scroller flex-grow bg-grey-400 ml-24 relative'>
+                    <div class='top-fader'></div>
+                    <div class='bottom-fader'></div>
+                </div>
 
-                
             </div>
         </div>
         
