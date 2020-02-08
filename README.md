@@ -16,5 +16,8 @@ Pull requests from the public are very welcome!
 - Run `./setup.sh`
 - Browse to `http://localhost:8710`
 
+### Build scripts
+In order to build brotli-compressed versions of the files, use the `npm run production` script. For development, use `npm run watch` or `npm run dev` in order to save time.
+
 ### Tests
 The test suite for this project is located in `./app/tests`
