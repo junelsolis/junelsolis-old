@@ -16,7 +16,7 @@
 
                     <main class='content h-full w-full'>
                         <div id='landing' class='w-full h-full pt-48'>
-                            <div class='w-3/5'>
+                            <div class='w-3/5' style='z-index:1;'>
                                 <h1 class='uppercase leading-tight' style='font-size:5rem;'>Web<br>Applications</h1>
                                 <h3 class='mt-6 normal-case text-grey-400'>Elegant, fully-tested and customized to meet your requirements</h3>
                             </div>
