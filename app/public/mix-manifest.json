@@ -3,5 +3,6 @@
     "/css/homepage.css": "/css/homepage.css",
     "/js/manifest.js": "/js/manifest.js",
     "/js/vendor.js": "/js/vendor.js",
-    "/js/rellax.js": "/js/rellax.js"
+    "/js/rellax.min.js": "/js/rellax.min.js",
+    "/js/all.min.js": "/js/all.min.js"
 }
