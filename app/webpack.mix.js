@@ -9,7 +9,9 @@ mix
       'axios',
     ])
 
-    .copy('node_modules/rellax/rellax.js', 'public/js')
+    .copy('node_modules/rellax/rellax.min.js', 'public/js')
+    .copy('node_modules/@fortawesome/fontawesome-free/js/all.min.js', 'public/js')
+    .copyDirectory('node_modules/@fortawesome/fontawesome-free/svgs', 'public/svgs')
 
     .js('resources/js/homepage.js', 'public/js')
     
