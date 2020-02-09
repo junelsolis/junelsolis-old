@@ -3,6 +3,7 @@
     <head>
         @include('meta-tags')
         <link href='/css/homepage.css' rel='stylesheet'>
+        <script src='/js/all.min.js'></script>
         <title>Laravel Web Applications | Junel Solis | Full-Stack Web Developer</title>
     </head>
     <body class='bg-grey-600'>
@@ -18,7 +19,6 @@
 
                     <main class='content h-full w-full'>
                         @include('landing')
-
                         
                     </main>
 
@@ -33,7 +33,7 @@
         <script src='/js/vendor.js'></script>
         <script src='/js/homepage.js'></script>
 
-        <script type="text/javascript" src='/js/rellax.js'></script>
+        <script type="text/javascript" src='/js/rellax.min.js'></script>
         <script>
             var rellax = new Rellax('.rellax', {
                 // center: true,
