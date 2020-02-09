@@ -22,6 +22,7 @@ Mockups are done in Figma and can be found [here](https://www.figma.com/file/NbO
 ### Installation
 - Clone this repository
 - Run `./setup.sh`
+- Set the `CONTACT_EMAIL_ADDRESS` variable in the `.env` file
 - Browse to `http://localhost:8710`
 
 ### Build scripts
