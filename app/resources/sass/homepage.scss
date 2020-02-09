@@ -87,8 +87,34 @@ body {
 
     img {
         @apply absolute right-0;
-        // transform: scale(1.);
         top: -6rem;
-        // z-index:-1;
+    }
+
+    .link-row {
+        @apply flex items-center mt-6;
+
+        .item {
+            @apply flex items-center justify-center;
+            width: 35px;
+            height: 35px;
+
+            a {
+                @apply text-grey-500 text-xl;
+            }
+            
+        }
+
+        .item:hover {
+            background: url('/images/hexagon.svg');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+            transition-duration: 0.2s;
+            a {
+                @apply text-grey-50;
+                transition-duration: inherit;
+            }
+        }
     }
 }
