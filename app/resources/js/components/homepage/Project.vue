@@ -17,6 +17,11 @@
             <div class='mt-12'>
                 <p class='text-grey-500 text-base' style='white-space: pre-line;'>{{ project.description }}</p>
             </div>
+
+            <div class='mt-12 flex items-center'>
+                <p class='text-xl text-grey-400 mr-1'><i class="fab fa-github"></i></p>
+                <p class='text-grey-400 text-sm items-center'><span class='font-bold'>{{ project.commit_count }}</span>&nbsp;commits on GitHub</p>
+            </div>
         </div>
         <div class='flex-grow bg-grey-50 h-full'></div>
     </div>
@@ -39,11 +44,11 @@
         }
 
         .tag {
-            @apply px-3 py-1 text-xs text-white font-bold bg-red-400;
+            @apply px-2 text-xs text-white font-bold bg-red-400;
         }
 
         .tag:not(:first-child) {
-            @apply ml-2;
+            @apply ml-1;
         }
     }
 </style>
