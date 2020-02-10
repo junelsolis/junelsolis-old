@@ -19,7 +19,7 @@
 
                     <main class='content h-full w-full'>
                         @include('landing')
-                        
+                        @include('projects')
                     </main>
 
                     <!-- <div class='bottom-fader'></div> -->
