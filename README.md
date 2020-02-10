@@ -40,7 +40,7 @@ App\Project::create([
     'tags' => 'an array of optional tags, written as a string',
 ]);
 ```
-For more information on this, please have a look at the `Project.php` and `2020_02_09_033742_create_projects_table.php` files. In the future, my plan will be to have project data reside in a Wordpress instance and access it via the Wordpress API.
+For more information on this, please have a look at the `Project.php` and `2020_02_09_033742_create_projects_table.php` files. In the future, my plan is to have project data reside as posts in Wordpress instance and access it via the Wordpress API.
 
 ### Build scripts
 In order to build brotli-compressed versions of the files, use the `npm run production` script. For development, use `npm run watch` or `npm run dev` in order to save time.
