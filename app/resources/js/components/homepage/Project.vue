@@ -23,7 +23,9 @@
                 <p class='text-grey-400 text-sm items-center'><span class='font-bold'>{{ project.commit_count }}</span>&nbsp;commits on GitHub</p>
             </div>
         </div>
-        <div class='flex-grow bg-grey-50 h-full'></div>
+        <div class='flex-grow h-full mt-24'>
+            <project-images :data='project'></project-images>
+        </div>
     </div>
 </template>
 <style lang='scss' scoped>
@@ -54,7 +56,13 @@
 </style>
 <script>
 
+    import ProjectImages from './ProjectImages'
+
     export default {
+        components: {
+            ProjectImages,
+        },
+
         props: ['data'],
         data() {
             return {
