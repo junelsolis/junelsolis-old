@@ -1,5 +1,5 @@
 <template>
-    <div class='project-images h-full rellax' data-rellax-speed='2'>
+    <div class='project-images rellax' data-rellax-speed='2' v-if='project.image_urls.length > 0'>
         <div class='hexagon'>
             <img src='/images/hexagon-partial.svg'>
         </div>
