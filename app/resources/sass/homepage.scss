@@ -94,27 +94,14 @@ body {
         @apply flex items-center mt-6;
 
         .item {
-            @apply flex items-center justify-center;
+            @apply flex items-center justify-center text-grey-500 text-xl;
             width: 35px;
             height: 35px;
-
-            a {
-                @apply text-grey-500 text-xl;
-            }
-            
         }
 
         .item:hover {
-            background: url('/images/hexagon.svg');
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-
+            @apply rounded-full bg-red-400 text-grey-50;
             transition-duration: 0.2s;
-            a {
-                @apply text-grey-50;
-                transition-duration: inherit;
-            }
         }
     }
 }
