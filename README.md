@@ -14,7 +14,7 @@ Pull requests from the public are very welcome!
 
 ### I want this site
 Do you want to use/extend this site as your own? ***Go right ahead!*** Fork or clone this reposityr. The [MIT License](https://github.com/junelsolis/junelsolis/blob/master/LICENSE) allows you to do just that. All I ask in return is that you buy me a coffee  
-<a href="https://www.buymeacoffee.com/gbraad" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+<a href="https://www.buymeacoffee.com/junelsolis" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 ### Mockups
 Mockups are done in Figma and can be found [here](https://www.figma.com/file/NbOTnqYEUN4UnoFCmgjWYd/Site?node-id=0%3A1)
