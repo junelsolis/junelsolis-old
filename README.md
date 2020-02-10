@@ -46,5 +46,6 @@ In order to build brotli-compressed versions of the files, use the `npm run prod
 The test suite for this project is located in `./app/tests`
 
 ### I want this site
-Do you want to use/extend this site as your own? ***Go right ahead!*** Fork or clone this repository. The [MIT License](https://github.com/junelsolis/junelsolis/blob/master/LICENSE) allows you to do just that. All I ask in return is that you buy me a coffee  
+Do you want to use/extend this site as your own? ***Go right ahead!*** Fork or clone this repository. The [MIT License](https://github.com/junelsolis/junelsolis/blob/master/LICENSE) allows you to do just that. All I ask in return is that you buy me a coffee.  
+  
 <a href="https://www.buymeacoffee.com/junelsolis" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
