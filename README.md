@@ -32,8 +32,9 @@ The ***Projects*** section of the homepage is dynamically-generated from ***Proj
 App\Project::create([
     'name' => 'Title of Project',
     'description' => 'Description of Project',
-    'url' => 'URL where the project can link to (optional)',
-    'image_urls' => 'an array of image urls written as a string',
+    'url' => ['https://www.project-site.com'],
+    'image_urls' => ['https://image.com/1.jpg', 'https://image.com/2.jpg],
+    'commit_count => 235,
     'tags' => 'an array of optional tags, written as a string',
 ]);
 ```
