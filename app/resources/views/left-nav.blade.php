@@ -13,12 +13,12 @@
     </div>
     <div class='flex flex-col'>
         <div class='flex-grow border-r border-grey-300 w-1'></div>
-        <div class='flex flex-col'>
+        <nav class='flex flex-col'>
             <a href='' class='font-bold text-grey-300 py-1'>Home</a>
             <a href='' class='font-bold text-grey-300 py-1'>Projects</a>
             <a href='' class='font-bold text-grey-300 py-1'>Tech Stack</a>
             <a href='' class='font-bold text-grey-300 py-1'>Contact</a>
-        </div>
+        </nav>
         <div class='flex-grow'></div>
     </div>
 </div>

@@ -88,6 +88,7 @@ body {
     img {
         @apply absolute right-0;
         top: -6rem;
+        z-index: 0;
     }
 
     .link-row {
