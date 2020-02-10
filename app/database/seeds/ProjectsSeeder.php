@@ -18,7 +18,7 @@ class ProjectsSeeder extends Seeder
             'description' => 
                 "Ixpress Logistics was looking for a way to integrate their external job tracking service with their own application. They needed a customer portal, a driver dashboard, a management interface.\n\nOne important solution they were looking for was the ability to reliably validate any Singapore address or postal code and if possible, resolve the address to even the building name -- and do it without using costly third-party validation services.\n\nThe solution I provided to them was based on Laravel, Vue.js and Docker. It included multiple API integrations with Stripe, Google Places API, Mabpox Geocoding and a custom-built database for address resolution.",
             'urls' => '[\'https://dashboard.ixpress647.com\',\'https://drivers.ixpress647.com\']',
-            'image_urls' => ['/images/projects/ixpress01.png', '/images/projects/ixpress02.png', '/images/projects/ixpress03.png'],
+            'image_urls' => ['/images/projects/ixpress01.jpg', '/images/projects/ixpress02.jpg', '/images/projects/ixpress03.jpg'],
             'commit_count' => 1356,
             'tags' => ['API Integration', 'GIS', 'Docker Engine', 'Tookan', 'Stripe'],
         ]);
