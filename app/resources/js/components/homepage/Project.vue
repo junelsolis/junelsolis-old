@@ -30,8 +30,8 @@
 </template>
 <style lang='scss' scoped>
     .project {
-        @apply mb-24;
         min-height: 20rem;
+        margin-bottom: 15rem;
 
         .bar {
             @apply  border-r-2 border-grey-100;
