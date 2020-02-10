@@ -8,6 +8,7 @@ use Faker\Generator as Faker;
 $factory->define(Project::class, function (Faker $faker) {
     return [
         'name' => $faker->company,
+        'subtitle' => $faker->sentence,
         'description' => $faker->paragraphs(2, true),
         'url' => $faker->url,
         'image_urls' => [$faker->imageUrl(), $faker->imageUrl()],
