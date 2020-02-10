@@ -3,12 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Project;
 
 class HomepageController extends Controller
 {
     public function home()
     {
-        return view('homepage');
+        return view('homepage')->with('projects', Project::get());
     }
 
     public function contact(Request $request)

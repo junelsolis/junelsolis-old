@@ -8,10 +8,12 @@ use Tests\TestCase;
 
 class HomepageControllerTest extends TestCase
 {
-   /** @test */
+   use RefreshDatabase;
+    /** @test */
    public function it_shows_the_homepage()
    {
-       $this->get('/')->assertViewIs('homepage');
+       $this->withoutExceptionHandling();
+       $this->get('/')->assertViewIs('homepage')->assertViewHas('projects');
    }
 
    /** @test */
