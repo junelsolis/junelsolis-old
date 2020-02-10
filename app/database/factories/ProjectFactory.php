@@ -10,7 +10,7 @@ $factory->define(Project::class, function (Faker $faker) {
         'name' => $faker->company,
         'subtitle' => $faker->sentence,
         'description' => $faker->paragraphs(2, true),
-        'url' => $faker->url,
+        'urls' => [$faker->url, $faker->url],
         'image_urls' => [$faker->imageUrl(), $faker->imageUrl()],
         'commit_count' => rand(100,200),
         'tags' => $faker->words,

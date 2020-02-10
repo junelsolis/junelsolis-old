@@ -18,7 +18,7 @@ class CreateProjectsTable extends Migration
             $table->string('name');
             $table->string('subtitle')->nullable();
             $table->text('description');
-            $table->string('url')->nullable();
+            $table->string('urls')->nullable();
             $table->string('image_urls')->nullable();
             $table->integer('commit_count')->nullable();
             $table->string('tags');
