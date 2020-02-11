@@ -20,6 +20,7 @@
                     <main class='content h-full w-full'>
                         @include('landing')
                         @include('projects')
+                        @include('open-source')
                     </main>
 
                     <!-- <div class='bottom-fader'></div> -->

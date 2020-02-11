@@ -106,3 +106,32 @@ body {
         }
     }
 }
+
+#open-source {
+    .bar {
+        @apply flex;
+        .left {
+            @apply  border-r-2 border-grey-100;
+
+            p {
+                writing-mode: vertical-lr;
+                text-orientation: mixed;
+                transform: rotate(180deg);
+                left: 1px;
+                position: relative;
+            }
+        }
+
+        .right {
+            @apply flex items-center relative;
+
+            h2 {
+                @apply uppercase text-grey-600 text-5xl font-light;
+                writing-mode: vertical-lr;
+                text-orientation: mixed;
+                transform: rotate(180deg);
+
+            }
+        }
+    }
+}

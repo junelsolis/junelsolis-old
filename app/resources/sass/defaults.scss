@@ -3,7 +3,8 @@ html {
     scroll-behavior: smooth;
 
     h1,h2,h3,h4,h5 {
-        @apply uppercase text-grey-600;
+        @apply uppercase text-grey-600 font-normal;
+        font-weight: 300;
     }
 
     h1 {
