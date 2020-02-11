@@ -26,6 +26,6 @@
         </div>
     </div>
     <div class='w-1/2 h-full'>
-        <img src='/images/graphic.svg' class='h-full w-auto rellax' data-rellax-speed='2'>
+        <img src='/images/graphic.svg' class='h-full w-auto rellax' data-rellax-speed='1'>
     </div>
 </div>
