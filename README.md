@@ -35,7 +35,7 @@ App\Project::create([
     'url' => ['https://www.project-site.com'],
     'image_urls' => ['https://image.com/1.jpg', 'https://image.com/2.jpg],
     'commit_count => 235,
-    'tags' => 'an array of optional tags, written as a string',
+    'tags' => ['gis', 'stripe', 'mapbox'],
 ]);
 ```
 For more information on this, please have a look at the `Project.php` and `2020_02_09_033742_create_projects_table.php` files. In the future, my plan is to have project data reside as posts in Wordpress instance and access it via the Wordpress API.
