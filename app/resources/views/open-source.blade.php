@@ -14,7 +14,7 @@
         <h3 class='normal-case'>The source code for this site is available for <a href='https://www.github.com/junelsolis/junelsolis' target='_blank' class='font-bold text-red-400'>FREE</a> under the <a href='https://github.com/junelsolis/junelsolis/blob/master/LICENSE' target='_blank' class='text-grey-400'>MIT LIcense</a>.</h3>
         <div class='mt-12'>
             <p class='text-grey-400 text-sm'>Using commit <span class='font-bold text-grey-500'>{{ Cache::get('git_commit') }}</span></p>
-            <p class='text-grey-400 text-sm'>Last updated on <span class='font-bold text-grey-500'>{{ \Carbon\Carbon::createFromTimestamp(Cache::get('git_last_update'))->format('M d, Y') }}</span>.</p>
+            <p class='text-grey-400 text-sm'>Last updated on <span class='font-bold text-grey-500'>{{ \Carbon\Carbon::createFromTimestamp(Cache::get('git_last_update'))->format('M d, Y H:i:s e') }}</span>.</p>
         </div>
         <div class='mt-6'>
             <p class='text-grey-400 text-sm'>Many icons on this site are provided by <span class='bold text-grey-500'>FontAwesome</span> as licensed <a href='' class='text-red-400'>here</a></p>
