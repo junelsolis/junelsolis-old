@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class='right rellax' data-rellax-speed='1'>
-            <h2><span class='text-grey-200'>Open Source</span>Open Source</h2>
+            <h2 style='white-space:nowrap;'><span class='text-grey-200'>Open Source</span>Open Source</h2>
         </div>
     </div>
     <div class='flex-grow h-64 px-8'>
