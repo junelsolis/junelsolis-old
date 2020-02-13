@@ -1,4 +1,4 @@
-<div class='mt-24'>
+<div class='mt-24' id='projects'>
 @if ($projects)
     @foreach($projects as $project)
     <project :data='@json($project)'></project>
