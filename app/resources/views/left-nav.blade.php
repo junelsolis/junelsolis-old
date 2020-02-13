@@ -14,11 +14,18 @@
     <div class='flex flex-col'>
         <div class='flex-grow border-r border-grey-300 w-1'></div>
         <nav class='flex flex-col'>
-            <a style='white-space:nowrap;' href='#landing' class='font-bold text-grey-300 py-1'>Home</a>
-            <a style='white-space:nowrap;' href='#projects' class='font-bold text-grey-300 py-1'>Projects</a>
-            <a style='white-space:nowrap;' href='#tech-stack' class='font-bold text-grey-300 py-1'>Tech Stack</a>
-            <a style='white-space:nowrap;' href='#contact' class='font-bold text-grey-300 py-1'>Contact</a>
-            <a style='white-space:nowrap;' href='#open-source' class='font-bold text-grey-300 py-1'>Open Source</a>
+            <scroll-to-link href='#landing' class='font-bold text-grey-300 py-1'>Home</scroll-to-link>
+            <scroll-to-link href='#projects' class='font-bold text-grey-300 py-1'>Projects</scroll-to-link>
+            <!-- <scroll-to-link href='#landing' class='font-bold text-grey-300 py-1'>Tech Stack</scroll-to-link> -->
+            <!-- <scroll-to-link href='#landing' class='font-bold text-grey-300 py-1'>Contact</scroll-to-link> -->
+            <scroll-to-link href='#open-source' class='font-bold text-grey-300 py-1'>Open Source</scroll-to-link>
+
+            <!-- possibly useful for crawlers? -->
+            <a href='#landing' class='hidden'>Home</a>
+            <a href='#projects' class='hidden'>Projects</a>
+            <!-- <a href='#tech-stack' class='hidden'>Tech Stack</a> -->
+            <!-- <a href='#contact' class='hidden'>Contact</a> -->
+            <a href='#open-source' class='hidden'>Open Source</a>
         </nav>
         <div class='flex-grow'></div>
     </div>
