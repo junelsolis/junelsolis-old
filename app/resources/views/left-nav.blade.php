@@ -14,11 +14,7 @@
     <div class='flex flex-col'>
         <div class='flex-grow border-r border-grey-300 w-1'></div>
         <nav class='flex flex-col'>
-            <scroll-to-link href='#landing' class='font-bold text-grey-300 py-1'>Home</scroll-to-link>
-            <scroll-to-link href='#projects' class='font-bold text-grey-300 py-1'>Projects</scroll-to-link>
-            <!-- <scroll-to-link href='#landing' class='font-bold text-grey-300 py-1'>Tech Stack</scroll-to-link> -->
-            <!-- <scroll-to-link href='#landing' class='font-bold text-grey-300 py-1'>Contact</scroll-to-link> -->
-            <scroll-to-link href='#open-source' class='font-bold text-grey-300 py-1'>Open Source</scroll-to-link>
+            <left-menu></left-menu>
 
             <!-- possibly useful for crawlers? -->
             <a href='#landing' class='hidden'>Home</a>

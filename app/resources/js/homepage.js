@@ -16,10 +16,9 @@ window.Vue = require('vue');
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
 
-// const files = require.context('./', true, /\.vue$/i)
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-
-Vue.component('scroll-to-link', require('./components/ScrollToLink.vue').default);
+// Vue.component('scroll-to-link', require('./components/ScrollToLink.vue').default);
+Vue.component('left-menu', require('./components/Menu.vue').default);
+Vue.component('in-viewport', require('./components/InViewport.vue').default);
 Vue.component('project', require('./components/homepage/Project.vue').default);
 
 /**
@@ -27,6 +26,21 @@ Vue.component('project', require('./components/homepage/Project.vue').default);
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+
+window.Event = new class {
+    constructor() {
+        this.vue = new Vue();
+    }
+
+    fire(event, data = null) {
+        this.vue.$emit(event, data);
+    }
+
+    listen(event, callback) {
+        this.vue.$on(event, callback);
+    }
+}
+
 
 const app = new Vue({
     el: '#app',

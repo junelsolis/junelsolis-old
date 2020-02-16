@@ -23,6 +23,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.12.1",
+        "in-viewport": "^3.6.0",
         "rellax": "^1.12.0",
         "tailwindcss": "^1.2.0"
     }
