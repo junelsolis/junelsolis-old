@@ -10,7 +10,8 @@
             <h2 style='white-space:nowrap;'><span class='text-grey-200'>Open Source</span>Open Source</h2>
         </div>
     </div>
-    <div class='flex-grow h-64 px-8'>
+    <section class='flex-grow h-64 px-8'>
+        <in-viewport section='Open Source'></in-viewport>
         <h3 class='normal-case'>The source code for this site is available for <a href='https://www.github.com/junelsolis/junelsolis' target='_blank' class='font-bold text-red-400'>FREE</a> under the <a href='https://github.com/junelsolis/junelsolis/blob/master/LICENSE' target='_blank' class='text-grey-400'>MIT LIcense</a>.</h3>
         <div class='mt-12'>
             <p class='text-grey-400 text-sm'>Using commit <a href="https://github.com/junelsolis/junelsolis/commit/{{ Cache::get('git_commit') }}" target='_blank' class='font-bold text-grey-500'>{{ Cache::get('git_commit') }}</a></p>
@@ -24,7 +25,7 @@
                 While the source code is freely available for you to use and modify, I reserve the rights to the content of the site, including projects, images, logos and trademarks.
             </p>
         </div>
-    </div>
+    </section>
     <div class='w-1/2 h-full'>
         <img src='/images/graphic.svg' class='h-full w-auto rellax' data-rellax-speed='1'>
     </div>

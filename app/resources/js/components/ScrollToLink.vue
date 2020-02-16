@@ -1,6 +1,10 @@
 <template>
     <a :href="href" @click.prevent="scroll">
-        <slot></slot>
+        <div class='flex items-center'>
+            <slot></slot>
+            <!-- <slot></slot> -->
+        </div>
+        <!-- <slot></slot> -->
     </a>
 </template>
 
