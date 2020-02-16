@@ -27,7 +27,7 @@ Mockups are done in Figma and can be found [here](https://www.figma.com/file/NbO
 - Browse to `http://localhost:8710`
 
 ### Projects
-The ***Projects*** section of the homepage is dynamically-generated from ***Project*** objects. You can populate this through the command-line by browsing to the root directory of the project and running `docker-compose exec php bash` and then `php artisan tinker`. The following is an example of how to create a Project object and persist in the database:
+The ***Projects*** section of the homepage is dynamically-generated from ***Project*** objects. These can be populated through the command-line by browsing to the root directory of the project and running `docker-compose exec php bash` and then `php artisan tinker`. The following is an example of how to create a Project object and persist in the database:
 ```
 App\Project::create([
     'name' => 'Title of Project',
