@@ -2,13 +2,15 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name='author' content='Junel Solis, junel@junelsolis.com, https://www.junelsolis.com' />
-<meta name="designer" content="Junel Solis, junel@junelsolis.com">
-<meta name='description' content='' />
+<meta name='author' content='Junel Solis' />
+<meta name="designer" content="Junel Solis">
+<meta name='description' content='I develop web applications written in Laravel and deployed with Docker' />
 <meta property='og:title' content='Laravel Web Applications | Junel Solis | Full-Stack Web Developer' />
 <meta property='og:site_name' content='Laravel Web Applications | Junel Solis | Full-Stack Web Developer' />
 <meta property='og:image' content='/images/logo2.png' />
-<meta property='og:description' content='' />
+<meta property='og:description' content='I develop web applications written in Laravel and deployed with Docker' />
+
+<link rel='canonical' href='https://www.junelsolis.com'>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
