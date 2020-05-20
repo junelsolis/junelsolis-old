@@ -17,9 +17,9 @@ window.Vue = require('vue');
  */
 
 // Vue.component('scroll-to-link', require('./components/ScrollToLink.vue').default);
-Vue.component('left-menu', require('./components/Menu.vue').default);
-Vue.component('in-viewport', require('./components/InViewport.vue').default);
-Vue.component('project', require('./components/homepage/Project.vue').default);
+// Vue.component('left-menu', require('./components/Menu.vue').default);
+// Vue.component('in-viewport', require('./components/InViewport.vue').default);
+// Vue.component('project', require('./components/homepage/Project.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -27,7 +27,7 @@ Vue.component('project', require('./components/homepage/Project.vue').default);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-window.Event = new class {
+window.EventBus = new class {
     constructor() {
         this.vue = new Vue();
     }

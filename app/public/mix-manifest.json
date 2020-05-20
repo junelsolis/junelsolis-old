@@ -1,8 +1,7 @@
 {
-    "/js/homepage.js": "/js/homepage.js",
-    "/css/homepage.css": "/css/homepage.css",
     "/js/manifest.js": "/js/manifest.js",
+    "/js/site.js": "/js/site.js",
+    "/css/site.css": "/css/site.css",
     "/js/vendor.js": "/js/vendor.js",
-    "/js/rellax.min.js": "/js/rellax.min.js",
-    "/js/all.min.js": "/js/all.min.js"
+    "/js/rellax.min.js": "/js/rellax.min.js"
 }

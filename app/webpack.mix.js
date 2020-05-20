@@ -10,12 +10,13 @@ mix
     ])
 
     .copy('node_modules/rellax/rellax.min.js', 'public/js')
-    .copy('node_modules/@fortawesome/fontawesome-free/js/all.min.js', 'public/js')
-    .copyDirectory('node_modules/@fortawesome/fontawesome-free/svgs', 'public/svgs')
+    // .copy('node_modules/@fortawesome/fontawesome-free/js/all.min.js', 'public/js')
+    // .copyDirectory('node_modules/@fortawesome/fontawesome-free/svgs', 'public/svgs')
 
-    .js('resources/js/homepage.js', 'public/js')
+    // .js('resources/js/homepage.js', 'public/js')
+    .js('resources/js/site.js', 'public/js')
     
-    .sass('resources/sass/homepage.scss', 'public/css')
+    .sass('resources/sass/site.scss', 'public/css')
     .options({
         processCssUrls: false,
         postCss: [ tailwindcss('./tailwind.config.js')],
