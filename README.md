@@ -1,5 +1,5 @@
 
-
+![](https://github.com/junelsolis/junelsolis/blob/master/project_logo.svg)  
 
 
 ![](https://github.com/junelsolis/junelsolis/workflows/Continuous%20Integration/badge.svg)
