@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Contact;
 
 class PageController extends Controller
 {
@@ -17,12 +18,19 @@ class PageController extends Controller
             'name' => 'required|string',
             'email' => 'required|email:rfc,dns',
             'message' => 'required|string',
-            'contact_options' => 'required|boolean',
         ]);
 
+        $contact = Contact::create([
+            'name' => $request['name'],
+            'email' => $request['email'],
+            'message' => $request['message'],
+        ]);
+
+        $contact->send();
+
         return response()->json([
-            'status' => 'OK',
             'message' => 'Thank you. Your message has been sent.',
+            'contact' => $contact,
         ]);
     }
 }

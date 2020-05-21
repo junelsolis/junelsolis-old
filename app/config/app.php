@@ -13,8 +13,9 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Junel Solis | Stack Web Developer'),
 
+    'contact_email_address' => env('CONTACT_EMAIL_ADDRESS'),
     /*
     |--------------------------------------------------------------------------
     | Application Environment
