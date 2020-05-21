@@ -150,10 +150,35 @@ html {
             label {
                 @apply text-xs text-teal-900;
             }
-            
+
             input, textarea {
                 @apply w-full border text-sm border-blue-500 px-2 py-1;
                 resize: none;
+            }
+        }
+    }
+
+    section.steps {
+        @apply mx-auto;
+        width: 59.625rem;
+
+        .steps__top {
+            display: grid;
+            grid-template-columns: 18rem 1fr;
+            column-gap: 4rem;
+
+            .left {
+                height: 18rem;
+                width: 100%;
+                @apply bg-teal-100 rounded-full flex items-center justify-center flex-col text-center;
+
+                h3 {
+                    @apply text-teal-900 text-2xl;
+                }
+
+                p {
+                    @apply text-sm text-grey-600 leading-tight;
+                }
             }
         }
     }

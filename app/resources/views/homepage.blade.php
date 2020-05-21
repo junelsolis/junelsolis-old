@@ -102,6 +102,23 @@
                 </div>
             </div>
         </section>
+
+        <section class="steps container">
+            <div class='steps__top'>
+                <div class='left'>
+                    <img src='/images/logo.svg' class='h-10 w-auto'>
+                    <h3 class='mt-3 leading-none'>Project<br>Development</h3>
+                    <p class='mt-3 w-3/4'>
+                    Here’s what it takes to get your web application project up and running
+                    </p>
+                </div>
+                <div class='flex items-center'>
+                    <p>
+                    Cras sodales felis ac sem imperdiet facilisis. Mauris mollis mauris orci, eu facilisis tortor tristique efficitur. Nulla facilisi. Integer ullamcorper mauris odio, non malesuada erat mollis sit amet. Etiam iaculis molestie erat eu luctus
+                    </p>
+                </div>
+            </div>
+        </section>
     </div>
 
     @include('symbols')
