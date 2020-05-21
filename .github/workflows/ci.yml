@@ -39,3 +39,28 @@ jobs:
       run: |
         php artisan key:generate
         vendor/bin/phpunit --stop-on-failure
+
+  deploy:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Execute commands via SSH
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.production_host }}
+          username: ${{ secrets.production_username }}
+          key: ${{ secrets.production_private_key }}
+          port: 22
+          script: |
+            cd /srv/junelsolis
+            git pull
+            git reset --hard HEAD
+
+            docker-compose up -d --build
+            docker-compose exec -T php composer install
+            docker-compose exec -T php php artisan optimize
+
+            cd app
+            npm install --silent
+            npm run --silent production
