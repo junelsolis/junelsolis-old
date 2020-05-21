@@ -13,13 +13,19 @@
             <div class='left'>
                 <div>
                     <div>
-                        <a href="#" class="text-grey-500 text-2xl hover:text-blue-500"><svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg></a>
+                        <a href="#" class="text-teal-300 text-2xl hover:text-blue-500"><svg class="icon icon-github">
+                                <use xlink:href="#icon-github"></use>
+                            </svg></a>
                     </div>
                     <div>
-                        <a href="#" class="text-grey-500 text-2xl hover:text-blue-500"><svg class="icon icon-whatsapp"><use xlink:href="#icon-whatsapp"></use></svg></a>
+                        <a href="#" class="text-teal-300 text-2xl hover:text-blue-500"><svg class="icon icon-whatsapp">
+                                <use xlink:href="#icon-whatsapp"></use>
+                            </svg></a>
                     </div>
                     <div>
-                        <a href="#" class="text-grey-500 text-2xl hover:text-blue-500"><svg class="icon icon-alternate_email"><use xlink:href="#icon-alternate_email"></use></svg></a>
+                        <a href="#" class="text-teal-300 text-2xl hover:text-blue-500"><svg class="icon icon-alternate_email">
+                                <use xlink:href="#icon-alternate_email"></use>
+                            </svg></a>
                     </div>
                 </div>
             </div>
@@ -61,7 +67,40 @@
                     </a>
                 </div>
             </div>
-            <div class='right'>right</div>
+            <div class='right'></div>
+        </section>
+
+        <section class="contact container">
+            <div class="contact__card">
+                <h3 class="underlined">Let's work on a project</h3>
+
+                <p class='mt-6 text-grey-600 text-sm'>
+                    Do you have a project you’d like to get started on?<br>
+                    Are you looking for a customized solution for your business?
+                </p>
+
+                <div class="card__fields">
+                    <div style='grid-column: 1/2;'>
+                        <label for="">Full Name</label>
+                        <input type='text'>
+                    </div>
+                    <div style='grid-column: 2/3;'>
+                        <label for="">Email address</label>
+                        <input type='email'>
+                    </div>
+                    <div style='grid-column: 1/3;'>
+                        <label for="">Message</label>
+                        <textarea></textarea>
+                    </div>
+                    <div style='grid-column: 1/2;'>
+                        <button href='#' class="large-btn">
+                            <div>Submit</div>
+                            <div><svg class="icon icon-arrow-right">
+                                    <use xlink:href="#icon-arrow-right"></use>
+                                </svg></div>
+                        </button></div>
+                </div>
+            </div>
         </section>
     </div>
 

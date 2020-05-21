@@ -41,7 +41,7 @@ html {
     @apply min-h-screen;
 
     section.landing {
-        min-height: 70vh;
+        min-height: 80vh;
         background-color: var(--teal-100);
 
         display: grid;
@@ -71,13 +71,13 @@ html {
                 }
 
                 h2 {
-                    font-size: 0.75rem;
+                    font-size: 1rem;
                     text-transform: uppercase;
                     letter-spacing: 6px;
                     color: var(--teal-900);
                     font-weight: 300;
                     margin-top: -0.4rem;
-                    line-height: 3rem;
+                    line-height: 2.8rem;
                 }
             }
 
@@ -92,9 +92,68 @@ html {
                         @apply mx-2 text-xs;
                         text-transform: uppercase;
                         letter-spacing: 4px;
-                        color: var(--teal-800);
+                        color: var(--teal-600);
                     }
                 }
+            }
+        }
+    }
+
+    section.contact {
+        @apply mx-auto;
+        width: 59.625rem;
+
+        .contact__card {
+            @apply p-8 bg-white border-blue-500 border;
+            width: 90%;
+            border-radius: 3px;
+            position: relative;
+            top: -12rem;
+            overflow: visible;
+
+            h3 {
+                @apply text-teal-600 text-2xl;
+                position: relative;
+            }
+
+            h3::after {
+                position: absolute;
+                content: '';
+                width: 8rem;
+                left: 0;
+                top: 2.2rem;
+                border-bottom: 2px solid var(--green-500);
+            }
+        }
+
+        .contact__card::after {
+            content: '';
+            position: absolute;
+            width: 30%;
+            height: 100%;
+            right: -7.5rem;
+            top: 2rem;
+            background-image: url('/images/decor.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .card__fields {
+            @apply mt-6;
+            width: 60%;
+
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            column-gap: 1rem;
+            row-gap: 1rem;
+
+            label {
+                @apply text-xs text-teal-900;
+            }
+            
+            input, textarea {
+                @apply w-full border text-sm border-blue-500 px-2 py-1;
+                resize: none;
             }
         }
     }
