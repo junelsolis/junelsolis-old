@@ -11,5 +11,5 @@
 |
 */
 
-Route::get('/', 'HomepageController@home');
-Route::post('/contact-form', 'HomepageController@contact');
+Route::get('/', 'PageController@home');
+Route::post('/contact-form', 'PageController@contact');

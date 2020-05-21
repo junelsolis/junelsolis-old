@@ -5,28 +5,8 @@
         <link href='/css/site.css' rel='stylesheet'>
         <title>Junel Solis | Full Stack Web Developer</title>
     </head>
-    <body class='bg-grey-600'>
-        <div id='app' class='h-screen bg-grey-100 flex items-center justify-end'>
-            <div class='panel'>
-                @include('left-nav')
-
-                <div class='scroller'>
-                    
-
-                    <div class='top-fader'></div>
-                    
-
-                    <main class='content h-full w-full'>
-                        @include('landing')
-                        @include('projects')
-                        @include('open-source')
-                    </main>
-
-                    <!-- <div class='bottom-fader'></div> -->
-                </div>
-
-            </div>
-        </div>
+    <body>
+        this is the homepage
         
 
         <script src='/js/manifest.js'></script>

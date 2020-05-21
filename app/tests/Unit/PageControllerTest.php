@@ -1,19 +1,18 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Unit;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
-class HomepageControllerTest extends TestCase
+class PageControllerTest extends TestCase
 {
    use RefreshDatabase;
     /** @test */
    public function it_shows_the_homepage()
    {
-       $this->withoutExceptionHandling();
-       $this->get('/')->assertViewIs('homepage')->assertViewHas('projects');
+       $this->get('/')->assertViewIs('homepage');
    }
 
    /** @test */
