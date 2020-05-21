@@ -1,0 +1,41 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  unit_test:
+    name: 'Run Unit Tests'
+    runs-on: ubuntu-latest
+
+    services:
+      mariadb:
+        image: mariadb:latest
+        ports:
+          - 3306
+        env:
+          MYSQL_DATABASE: test
+          MYSQL_ROOT_PASSWORD: password
+        options: --health-cmd="mysqladmin ping" --health-interval=5s --health-timeout=2s --health-retries=3
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup environment
+      working-directory: ./app
+      run: |
+        cp .env.unit-test .env
+
+    - name: Install Composer dependencies
+      working-directory: ./app
+      run: composer install -q --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
+
+    - name: Execute tests via PHPUnit
+      env:
+        DB_PORT: ${{ job.services.mariadb.ports[3306] }}
+      working-directory: ./app
+      run: |
+        php artisan key:generate
+        vendor/bin/phpunit --stop-on-failure
