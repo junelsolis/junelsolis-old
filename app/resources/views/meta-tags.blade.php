@@ -2,6 +2,7 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link rel="canonical" href="https://www.junelsolis.com/">
 <meta name='author' content='Junel Solis, junel@junelsolis.com, https://www.junelsolis.com' />
 <meta name="designer" content="Junel Solis, junel@junelsolis.com">
 <meta name='description' content='' />
