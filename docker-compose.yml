@@ -37,6 +37,16 @@ services:
     ports:
       - "127.0.0.1:8711:3306"
 
+  queue:
+    build:
+      context: ./
+      dockerfile: queue.dockerfile
+    depends_on:
+      - php
+      - db
+    volumes:
+      - ./app:/var/www/html
+
 
 secrets:
    db_root_password:
