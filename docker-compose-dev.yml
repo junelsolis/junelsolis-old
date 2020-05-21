@@ -1,0 +1,46 @@
+version: '3.6'
+
+services:
+
+  web:
+    image: nginx
+    restart: always
+    volumes:
+      - "./app:/var/www/html"
+      - "./nginx/nginx-server.conf:/etc/nginx/conf.d/default.conf"
+    ports:
+      - "8710:80"
+    links:
+      - php
+
+
+  php:
+    restart: always
+    build:
+      context: ./
+      dockerfile: php.dev.dockerfile
+    volumes:
+      - "./app:/var/www/html"
+      - "./:/git"
+
+  db:
+    image: mariadb
+    restart: always
+    volumes:
+      - db-vol:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/db_root_password
+      MYSQL_DATABASE: junelsolis
+    secrets:
+      - db_root_password
+    ports:
+      - "127.0.0.1:8711:3306"
+
+
+secrets:
+   db_root_password:
+     file: ./secrets/db_root_password
+
+
+volumes:
+  db-vol:
