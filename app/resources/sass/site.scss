@@ -3,6 +3,8 @@
 @tailwind utilities;
 @tailwind screen;
 
+@import 'buttons.scss';
+
 :root {
     --grey-500: #abb8b6;
     --grey-600: #9aa9a7;
@@ -34,6 +36,7 @@ html {
     color: var(--grey-900);
 }
 
+
 .homepage {
     @apply min-h-screen;
 
@@ -42,7 +45,11 @@ html {
         background-color: var(--teal-100);
 
         display: grid;
-        grid-template-columns: 10% 1fr 10%;
+        grid-template-columns: 5% 1fr 5%;
+
+        .left {
+            @apply flex items-center justify-center;
+        }
 
         .middle {
             @apply flex flex-col items-center justify-center;

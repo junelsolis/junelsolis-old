@@ -1,0 +1,51 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.icon-arrow-right {
+    width: 1.72265625em;
+}
+
+.large-btn {
+    @apply flex items-center;
+    border-radius: 3px;
+
+    > div:first-child {
+        @apply bg-green-500 text-white font-bold px-4 py-2;
+    }
+
+    > div:last-child {
+        @apply bg-blue-500 px-4 py-2 text-teal-500;
+
+        svg {
+            transition-duration: 200ms;
+            transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+        }
+    }
+}
+
+.large-btn:hover {
+    @apply flex items-center;
+
+    > div:first-child {
+        @apply bg-green-600 text-white font-bold px-4 py-2;
+    }
+
+    > div:last-child {
+        @apply bg-blue-600 px-4 py-2 text-teal-500;
+
+        svg {
+            transform: translateX(4px);
+            fill: var(--teal-700);
+            transition-duration: 200ms;
+            transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+        }
+    }
+
+    box-shadow: 0 3px 10px rgba(#000000,0.10);
+    transition-duration: 200ms;
+}
