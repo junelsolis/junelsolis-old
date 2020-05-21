@@ -1,7 +1,6 @@
 ![](https://github.com/junelsolis/junelsolis/blob/master/app/public/images/logo.svg)
 
 
-![](https://img.shields.io/travis/junelsolis/junelsolis?style=flat-square)
 ![](https://img.shields.io/github/issues/junelsolis/junelsolis?style=flat-square)
 ![](https://img.shields.io/github/languages/count/junelsolis/junelsolis?style=flat-square)
 
