@@ -7,9 +7,6 @@
 # create environment file
 cp app/.env.example app/.env
 
-# build the containers
-docker-compose build
-
 # run composer install
 ./composer/install.sh
 
@@ -26,8 +23,10 @@ echo $DBPASSWORDLINE
 sed -i -e "s/DB_PASSWORD=/$DBPASSWORDLINE/g" 'app/.env'
 rm app/.env-e
 
+# build the containers
+docker-compose build
+
 # bring up containers
-# ip route | grep docker0 | awk '{print $9}'
 docker-compose up -d
 
 # generate application key
