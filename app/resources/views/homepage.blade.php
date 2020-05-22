@@ -79,27 +79,7 @@
                     Are you looking for a customized solution for your business?
                 </p>
 
-                <div class="card__fields">
-                    <div style='grid-column: 1/2;'>
-                        <label for="">Full Name</label>
-                        <input type='text'>
-                    </div>
-                    <div style='grid-column: 2/3;'>
-                        <label for="">Email address</label>
-                        <input type='email'>
-                    </div>
-                    <div style='grid-column: 1/3;'>
-                        <label for="">Message</label>
-                        <textarea></textarea>
-                    </div>
-                    <div style='grid-column: 1/2;'>
-                        <button href='#' class="large-btn">
-                            <div>Submit</div>
-                            <div><svg class="icon icon-arrow-right">
-                                    <use xlink:href="#icon-arrow-right"></use>
-                                </svg></div>
-                        </button></div>
-                </div>
+                <contact-form></contact-form>
             </div>
         </section>
 

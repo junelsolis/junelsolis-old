@@ -49,3 +49,19 @@
     box-shadow: 0 3px 10px rgba(#000000,0.10);
     transition-duration: 200ms;
 }
+
+.large-btn.disabled {
+    cursor: text;
+
+    > div:first-child {
+        @apply bg-grey-500;
+    }
+
+    > div:last-child {
+        @apply bg-grey-700;
+    }
+}
+
+.large-btn.disabled:hover {
+    box-shadow: none;
+}
