@@ -12,8 +12,8 @@
             <label for="">Message</label>
             <textarea v-model='message' rows='5'></textarea>
         </div>
-        <div style="grid-column: 1/2;">
-            <button href="#" class="large-btn" @click='sendData'>
+        <div style="grid-column: 1/2;min-height:3rem;">
+            <button href="#" class="large-btn" @click='sendData' v-if='!loading && name == null && email == null && message == null'>
                 <div>Submit</div>
                 <div>
                     <svg class="icon icon-arrow-right">
@@ -21,6 +21,11 @@
                     </svg>
                 </div>
             </button>
+
+            <bar-loader color="#41E296" v-if='loading'></bar-loader>
+
+            <p class="mt-3 text-grey-700 text-sm">Thank you. Your message has been received.</p>
+
         </div>
     </div>
 </template>
@@ -29,12 +34,21 @@
 }
 </style>
 <script>
+import {BarLoader} from '@saeris/vue-spinners'
+
 export default {
+    components: {
+        BarLoader,
+    },
+
     data() {
         return {
             name: null,
             email: null,
-            message: null
+            message: null,
+
+            loading: false,
+            result: '',
         };
     },
 
@@ -54,12 +68,15 @@ export default {
         sendData() {
             if (!this.valid) return 
             
+            this.loading
             axios.post('/contact-form', {
                 name: this.name,
                 email: this.email,
                 message: this.message,
             }).then(response => {
-
+                this.name = null
+                this.email = null
+                this.message = null
             })
         }
     }
