@@ -39,7 +39,15 @@ export default {
     },
 
     computed: {
-        valid() {}
+        valid() {
+            return this.name == null
+                    ? false
+                    : this.email == null
+                        ? false
+                        : this.message == null
+                            ? false
+                            : true
+        }
     },
 
     methods: {
@@ -51,7 +59,7 @@ export default {
                 email: this.email,
                 message: this.message,
             }).then(response => {
-                
+
             })
         }
     }
