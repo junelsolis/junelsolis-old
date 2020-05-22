@@ -13,7 +13,7 @@
             <textarea v-model='message' rows='5'></textarea>
         </div>
         <div style="grid-column: 1/2;min-height:3rem;">
-            <button href="#" class="large-btn" @click='sendData' v-if='!loading && name == null && email == null && message == null'>
+            <button href="#" class="large-btn" @click='sendData' v-if='!loading'>
                 <div>Submit</div>
                 <div>
                     <svg class="icon icon-arrow-right">
@@ -24,7 +24,7 @@
 
             <bar-loader color="#41E296" v-if='loading'></bar-loader>
 
-            <p class="mt-3 text-grey-700 text-sm">Thank you. Your message has been received.</p>
+            <p class="mt-3 text-grey-700 text-sm" v-if='result'>Thank you. Your message has been received.</p>
 
         </div>
     </div>
@@ -48,7 +48,7 @@ export default {
             message: null,
 
             loading: false,
-            result: '',
+            result: null,
         };
     },
 
@@ -68,15 +68,20 @@ export default {
         sendData() {
             if (!this.valid) return 
             
-            this.loading
+            this.loading = true
+
             axios.post('/contact-form', {
                 name: this.name,
                 email: this.email,
                 message: this.message,
             }).then(response => {
+
+                this.loading = false 
                 this.name = null
                 this.email = null
                 this.message = null
+
+                this.result = 'done'
             })
         }
     }
