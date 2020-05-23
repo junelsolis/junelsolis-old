@@ -82,22 +82,22 @@
             </div>
         </section>
 
-        <!-- <section class="steps container">
+        <section class="steps container">
             <div class='steps__top'>
                 <div class='left'>
-                    <img src='/images/logo.svg' class='h-10 w-auto'>
+                    <img src='/images/logo.svg' class='h-8 lg:h-10 w-auto'>
                     <h3 class='mt-3 leading-none'>Project<br>Development</h3>
                     <p class='mt-3 w-3/4'>
                     Here’s what it takes to get your web application project up and running
                     </p>
                 </div>
-                <div class='flex items-center'>
-                    <p>
+                <div class='flex items-center px-6 lg:px-0'>
+                    <p class='text-sm mt-12 lg:mt-0'>
                     A successful project depends on accuracy and clearly defined objectives. In order to provide clients with the best outcome possible, I implement the following steps in my development process.
                     </p>
                 </div>
             </div>
-        </section> -->
+        </section>
     </div>
 
     @include('symbols')
