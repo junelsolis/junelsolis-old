@@ -4,7 +4,7 @@
 <head>
     @include('meta-tags')
     <link href='/css/site.css' rel='stylesheet'>
-    <title>Full Stack Web Developer | Junel Solis</title>
+    <title>Junel Solis | Full Stack Web Developer</title>
 </head>
 
 <body>
