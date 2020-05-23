@@ -94,7 +94,7 @@
                 </div>
                 <div class='flex items-center'>
                     <p>
-                    Cras sodales felis ac sem imperdiet facilisis. Mauris mollis mauris orci, eu facilisis tortor tristique efficitur. Nulla facilisi. Integer ullamcorper mauris odio, non malesuada erat mollis sit amet. Etiam iaculis molestie erat eu luctus
+                    A successful project depends on accuracy and clearly defined objectives. In order to provide clients with the best outcome possible, I implement the following steps in my development process.
                     </p>
                 </div>
             </div>
