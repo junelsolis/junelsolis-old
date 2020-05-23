@@ -69,7 +69,7 @@
             <div class='right'></div>
         </section>
 
-        <!-- <section class="contact container">
+        <section class="contact container">
             <div class="contact__card">
                 <h3 class="underlined">Let's work on a project</h3>
 
@@ -82,7 +82,7 @@
             </div>
         </section>
 
-        <section class="steps container">
+        <!-- <section class="steps container">
             <div class='steps__top'>
                 <div class='left'>
                     <img src='/images/logo.svg' class='h-10 w-auto'>
