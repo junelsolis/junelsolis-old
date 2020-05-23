@@ -18,7 +18,7 @@
                             </svg></a>
                     </div>
                     <div>
-                        <a href="https:://wa.me/254790503144" target='_blank' class="text-teal-300 text-2xl hover:text-blue-500"><svg class="icon icon-whatsapp">
+                        <a href="https://wa.me/254790503144" target='_blank' class="text-teal-300 text-2xl hover:text-blue-500"><svg class="icon icon-whatsapp">
                                 <use xlink:href="#icon-whatsapp"></use>
                             </svg></a>
                     </div>
