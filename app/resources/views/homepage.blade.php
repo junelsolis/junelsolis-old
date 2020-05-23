@@ -39,7 +39,7 @@
                         <h2>Full Stack Web Developer</h2>
                     </div>
                 </div>
-                <!-- <div class='stack'>
+                <div class='stack'>
                     <ul>
                         <li>Laravel</li>
                         <li>Vue</li>
@@ -49,15 +49,14 @@
                         <li>Nginx</li>
                         <li>Redis</li>
                         <li>Linux</li>
-                    </ul>
-                    <ul class='mt-4'>
                         <li>Stripe</li>
                         <li>Paypal</li>
                         <li>Mapbox</li>
                         <li>Google Maps</li>
                         <li>Wordpress API</li>
+                        <li>Tookan</li>
                     </ul>
-                </div> -->
+                </div>
                 <div class='mt-20'>
                     <a href='#' class="large-btn">
                         <div>Project Demos</div>
