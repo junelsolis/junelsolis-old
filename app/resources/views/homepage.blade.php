@@ -23,9 +23,7 @@
                             </svg></a>
                     </div>
                     <div>
-                        <a href="#" class="text-teal-300 text-2xl hover:text-blue-500"><svg class="icon icon-alternate_email">
-                                <use xlink:href="#icon-alternate_email"></use>
-                            </svg></a>
+                        <a href="skype:junel.solis?chat" class="text-teal-300 text-2xl hover:text-blue-500"><svg class="icon icon-social-skype-outline"><use xlink:href="#icon-social-skype-outline"></use></svg></a>
                     </div>
                 </div>
             </div>
