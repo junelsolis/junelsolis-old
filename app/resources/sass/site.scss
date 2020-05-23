@@ -45,40 +45,80 @@ html {
         background-color: var(--teal-100);
 
         display: grid;
-        grid-template-columns: 5% 1fr 5%;
+
+        @screen lg {
+            
+            grid-template-columns: 5% 1fr 5%;
+        }
 
         .left {
-            @apply flex items-center justify-center;
+            @apply hidden;
+
+            @screen lg {
+                @apply flex items-center justify-center;
+            }
+        }
+
+        .right {
+            // @apply hidden;
+
+            @screen lg {
+                @apply flex;
+            }
         }
 
         .middle {
             @apply flex flex-col items-center justify-center;
 
             .logo {
-                @apply flex items-center;
+                @apply flex flex-col justify-center items-center;
 
                 img {
-                    height: 6rem;
                     @apply w-auto;
-                    // width: auto;
+                    height: 3rem;
                 }
 
                 h1 {
-                    font-size: 5.625rem;
+                    font-size: 3rem;
                     color: var(--teal-900);
                     font-weight: 100;
-                    line-height: 5rem;
+                    text-align: center;
                 }
 
                 h2 {
-                    font-size: 1rem;
-                    text-transform: uppercase;
-                    letter-spacing: 6px;
                     color: var(--teal-900);
                     font-weight: 300;
                     margin-top: -0.4rem;
-                    line-height: 2.8rem;
+                    font-size: 0.6rem;
+                    text-align: center;
+                    text-transform: uppercase;
+                    letter-spacing: 5px;
                 }
+                
+
+                @screen lg {
+                    @apply flex items-center flex-row;
+
+                    img {
+                        height: 6rem;
+                        @apply w-auto;
+                        // width: auto;
+                    }
+    
+                    h1 {
+                        text-align: left;
+                        font-size: 5.625rem;
+                        line-height: 5rem;
+                    }
+    
+                    h2 {
+                        font-size: 1rem;
+                        line-height: 2.8rem;
+                        text-align: left;
+                        letter-spacing: 6px;
+                    }
+                }
+                
             }
 
             .stack {

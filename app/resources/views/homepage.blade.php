@@ -39,7 +39,7 @@
                         <h2>Full Stack Web Developer</h2>
                     </div>
                 </div>
-                <div class='stack'>
+                <!-- <div class='stack'>
                     <ul>
                         <li>Laravel</li>
                         <li>Vue</li>
@@ -57,7 +57,7 @@
                         <li>Google Maps</li>
                         <li>Wordpress API</li>
                     </ul>
-                </div>
+                </div> -->
                 <div class='mt-20'>
                     <a href='#' class="large-btn">
                         <div>Project Demos</div>
@@ -70,7 +70,7 @@
             <div class='right'></div>
         </section>
 
-        <section class="contact container">
+        <!-- <section class="contact container">
             <div class="contact__card">
                 <h3 class="underlined">Let's work on a project</h3>
 
@@ -98,7 +98,7 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
 
     @include('symbols')
