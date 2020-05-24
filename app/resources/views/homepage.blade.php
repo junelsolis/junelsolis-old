@@ -105,7 +105,7 @@
                     <div>
                         <h4>Define the problem</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam at soluta vel explicabo debitis veritatis illo neque iusto voluptate maiores dolorum totam ipsa veniam impedit sit reiciendis dicta, assumenda nulla.
+                            Figure out exactly what the application needs to do &mdash; what's it really trying to solve?
                         </p>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                     <div>
                         <h4>Research</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam at soluta vel explicabo debitis veritatis illo neque iusto voluptate maiores dolorum totam ipsa veniam impedit sit reiciendis dicta, assumenda nulla.
+                            Gather more information about the project and the kind of technologies available for it.
                         </p>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                     <div>
                         <h4>Mockups &amp; architecture</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam at soluta vel explicabo debitis veritatis illo neque iusto voluptate maiores dolorum totam ipsa veniam impedit sit reiciendis dicta, assumenda nulla.
+                            Create mockups of the user interface and make decisions on the technology stack to be used.
                         </p>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                     <div>
                         <h4>Develop the application</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam at soluta vel explicabo debitis veritatis illo neque iusto voluptate maiores dolorum totam ipsa veniam impedit sit reiciendis dicta, assumenda nulla.
+                            Start writing application source code. Backup with automated testing and a staging server to monitor development progress.
                         </p>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                     <div>
                         <h4>Acceptance testing &amp; deployment</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam at soluta vel explicabo debitis veritatis illo neque iusto voluptate maiores dolorum totam ipsa veniam impedit sit reiciendis dicta, assumenda nulla.
+                            Run your own tests on the application to make sure that it is up to your specifications. When ready, we'll deploy the production-ready application to your server.
                         </p>
                     </div>
                 </div>
