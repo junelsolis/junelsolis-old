@@ -159,7 +159,7 @@
     </div>
 
     @include('symbols')
-
+    @include('footer')
 
     <script src='/js/manifest.js'></script>
     <script src='/js/vendor.js'></script>
