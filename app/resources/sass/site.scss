@@ -192,7 +192,7 @@ html {
     }
 
     section.steps {
-        @apply mx-auto mt-20;
+        @apply mx-auto mt-20 mb-20;
         
         @screen lg {
             @apply mt-0;
@@ -233,6 +233,39 @@ html {
                     height: 18rem;
                     width: 100%;
                 }
+            }
+        }
+
+        .steps__bottom {
+            @apply mt-8 px-6 text-center;
+
+            .step:not(:first-child) {
+                @apply mt-6;
+            }
+
+            h3 {
+                @apply text-2xl text-teal-800 uppercase;
+                position: relative;
+                font-weight: 300;
+            }
+
+            h3::after {
+                position: absolute;
+                content: '';
+                width: 6rem;
+                left: calc(50% - 3rem);
+                // right: 50%;
+                top: 2.5rem;
+                border-bottom: 2px solid var(--green-500);
+            }
+
+            h4 {
+                @apply text-2xl text-teal-500 mt-3;
+                font-weight: 300;
+            }
+
+            p {
+                @apply text-xs text-grey-800;
             }
         }
     }
