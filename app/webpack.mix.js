@@ -9,7 +9,7 @@ mix
       'axios',
     ])
 
-    .copy('node_modules/rellax/rellax.min.js', 'public/js')
+    // .copy('node_modules/rellax/rellax.min.js', 'public/js')
     .js('resources/js/site.js', 'public/js')
     
     .sass('resources/sass/site.scss', 'public/css')
