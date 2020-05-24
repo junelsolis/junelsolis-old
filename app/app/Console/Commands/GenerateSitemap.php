@@ -38,7 +38,6 @@ class GenerateSitemap extends Command
      */
     public function handle()
     {
-        // $path = public_path('sitemap.xml');
-        SitemapGenerator::create('https://www.junelsolis.com')->getSitemap()->writeToFile('public/sitemap.xml');
+        SitemapGenerator::create('https://www.junelsolis.com')->getSitemap()->writeToFile(public_path('sitemap.xml'));
     }
 }

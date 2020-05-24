@@ -26,7 +26,7 @@ class Kernel extends ConsoleKernel
     {
         $schedule->command('git:update')->everyFifteenMinutes();
 
-        $schedule->command('sitemap:generate')->daily();
+        // $schedule->command('sitemap:generate')->daily();
 
     }
 
