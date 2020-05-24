@@ -288,3 +288,18 @@ html {
         }
     }
 }
+
+footer {
+    .bottom {
+        @apply bg-teal-800;
+
+        > .container {
+            @apply px-6 py-3 text-center;
+
+            @screen lg {
+                @apply flex items-center justify-between;
+            }
+        }
+        
+    }
+}
