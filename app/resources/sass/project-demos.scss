@@ -1,0 +1,25 @@
+.project__demos {
+    @apply min-h-screen p-6;
+
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    column-gap: 2rem;
+
+    .logo {
+        @apply flex items-start;
+
+        h3 {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 100;
+            @apply text-teal-800 text-2xl leading-none;
+        }
+
+        h4 {
+            font-weight: normal;
+            font-size: 0.4rem;
+            @apply text-teal-800 uppercase;
+            letter-spacing: 3px;
+            white-space: nowrap;
+        }
+    }
+}

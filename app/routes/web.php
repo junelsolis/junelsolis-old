@@ -13,3 +13,4 @@
 
 Route::get('/', 'PageController@home');
 Route::post('/contact-form', 'PageController@contact');
+Route::get('/project-demos', 'PageController@projectDemos');
