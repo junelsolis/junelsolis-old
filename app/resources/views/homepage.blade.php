@@ -4,7 +4,7 @@
 <head>
     @include('meta-tags')
     <link href='/css/site.css' rel='stylesheet'>
-    <title>Junel Solis | Full Stack Web Developer</title>
+    <title>Full Stack Web Developer | Junel Solis</title>
 </head>
 
 <body>
@@ -58,7 +58,7 @@
                     </ul>
                 </div>
                 <div class='mt-20'>
-                    <a href='#' class="large-btn">
+                    <a href='/project-demos' class="large-btn">
                         <div>Project Demos</div>
                         <div><svg class="icon icon-arrow-right">
                                 <use xlink:href="#icon-arrow-right"></use>
