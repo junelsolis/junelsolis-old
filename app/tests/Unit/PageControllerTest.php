@@ -42,4 +42,12 @@ class PageControllerTest extends TestCase
         Mail::assertQueued(\App\Mail\ContactReceivedMail::class);
     
     }
+
+    /** @test */
+    public function it_shows_the_project_demos_page()
+    {
+        $this->get('/project-demos')
+            ->assertViewIs('project-demos')
+            ->assertViewHas('project_demos');
+    }
 }

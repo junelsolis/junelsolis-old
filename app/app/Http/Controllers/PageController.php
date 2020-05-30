@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Contact;
+use App\ProjectDemo;
 
 class PageController extends Controller
 {
@@ -32,5 +33,11 @@ class PageController extends Controller
             'message' => 'Thank you. Your message has been sent.',
             'contact' => $contact,
         ]);
+    }
+
+    public function projectDemos(Request $request)
+    {
+        $projectDemos = ProjectDemo::get();
+        return view('project-demos')->with('project_demos', $projectDemos);
     }
 }
