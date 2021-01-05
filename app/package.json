@@ -11,7 +11,7 @@
     },
     "devDependencies": {
         "@saeris/vue-spinners": "^1.0.8",
-        "axios": "^0.19",
+        "axios": "^0.21",
         "brotli-webpack-plugin": "^1.1.0",
         "cross-env": "^7.0",
         "laravel-mix": "^5.0.4",
